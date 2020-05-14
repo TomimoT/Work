@@ -1,32 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="gathering.css" rel="stylesheet" type="text/css">
-
-</head>
+<link href="gathering2016.css" rel="stylesheet" type="text/css">
 <body>
-	<header>
-		<a href="home.html" class="logo">Odriscoll</a>
-		<ul>
-			<li><a href="home.html">Home</a></li>
-			<li><a href="Events.html">Events</a></li>
-			<li><a href="Castles & Chieftains.html">Castles & Chieftains</a></li>
-			<li><a href="#">Memorial Archive </a></li>
-			<li><a id="active" href="Gallery.html">Gallery</a></li>
-			<li><a href="Contacts.html">Contacts</a></li>
-		</ul>
-	</header>
-	<section class="banner"></section>
 
-<div class="break">
-	<a href="gallery.html" style="text-decoration: none;"><span>←Gallery</span></a>
-</div>
-
-
-<div class="container-gallery">
-
-	 <h2 style="text-align:center">Gathering 2016</h2>
+<h2 style="text-align:center">Gathering 2016</h2>
 
 <div class="row">
   <div class="column">
@@ -215,19 +193,8 @@
   </div>
 </div>
 
-</div>
-
-    <div class="footer">
-      <p>Footer to be finished</p>
-    </div>
-
-	<script type="text/javascript">
-		window.addEventListener("scroll", function(){
-			var header = document.querySelector("header");
-			header.classList.toggle("sticky", window.scrollY > 0);
-		})
-
-    function openModal() {
+<script>
+function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
 
@@ -263,6 +230,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
-	</script>
+</script>
+    
 </body>
 </html>
