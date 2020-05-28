@@ -116,6 +116,13 @@ span {
   padding: 30px;
   background-color:rgba(0, 0, 0, 0);
 }
+.container-gallery2014{
+  height: 1400px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 30px;
+  background-color:rgba(0, 0, 0, 0);
+}
 
 #active
 {

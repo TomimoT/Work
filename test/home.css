@@ -80,6 +80,33 @@ margin-right: 30px;
 	background-size: cover;
 }
 
+.chieftains-banner
+{
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: url(images/Chieftains.jpg);
+  background-size: cover;
+}
+
+.events-banner
+{
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: url(images/members.jpg);
+  background-size: cover;
+}
+
+.memorial-banner
+{
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: url(images/archive.jpg);
+  background-size: cover;
+} 
+
 header.sticky .logo,
 header.sticky ul li a
 {
@@ -114,12 +141,13 @@ span {
   background-color: rgb(224, 224, 224, 0.5);
 }
 .contacts-container{
-  height: 1000px;
+  height: 3000px;
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 20px;
   padding: 30px;
   background-color: white;
+  line-height: 1.5;
 }
 
 .castles-container{
@@ -140,7 +168,16 @@ span {
 }
 
 .events-container{
-  height: 3000px;
+  height: 2650px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: rgb(224, 224, 224, 0.5);
+}
+
+.memorial-container{
+  height: 6100px;
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 20px;
@@ -270,7 +307,23 @@ article a{
 
 
 
-
+.footer {
+   position: relative;
+   width: 100%;
+   left: 0;
+   padding-top: 10px;
+   bottom: 0;
+   height: 100px;
+   margin-top: 10px;
+   background-color: #3a85fc;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+}
+.footer p a{
+  text-decoration: none;
+  color: white;
+}
 
 
 
